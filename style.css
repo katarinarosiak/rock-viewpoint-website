@@ -1,0 +1,169 @@
+html body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*centering*/
+.center {
+
+	justify-content:center;
+	align-items:center;
+}
+
+.justifyThisEl {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.logo {
+	padding: 0;
+}
+
+/*Bacground for HERO*/
+.background {
+	background-image: url("mainPic.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+}
+
+.backgroundContact {
+
+	background-image: url("contactPic.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.backgroundExperiences {
+	background-image: url("experiencesMain.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.backgroundAbout {
+	background-image: url("about.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.backgroundMedia {
+	background-image: url("media.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.contact {
+	padding-top: 1em;
+}
+
+.justify {
+	padding-top: 6rem;
+	font-size: 4rem;
+
+}
+
+.secText {
+	font-size: 3rem;
+
+}
+
+
+/*Book button*/
+.bookBnt {
+	font-size: 120%;
+	background-color: #E56A54;
+	border: 0;
+	margin-top: 5%;
+}
+
+
+/*margins*/
+.marginTop {
+	margin-top: 2em;
+
+}
+
+.marginBottom {
+	margin-bottom: 2em;
+}
+
+.marginLR {
+	margin-left: 6em;
+	margin-right:6em;
+}
+
+/*colors*/
+.darkGrey {
+	background-color: #484F54;
+}
+
+.noBg {
+	background-color: transparent !important;
+}
+
+/*small icons from contact page*/
+.iconstyle {
+	width: 7%;
+	margin-bottom: 5%;
+	margin-left: 8px;
+}
+/*list in contact page*/
+ul {
+	list-style: none;
+}
+
+/*badges with prices experiences page*/
+
+.badges {
+	width: 3.5rem;
+	height: 2rem;
+	font-size: 115%;
+}
+
+/*Media Library Media boxes: */
+
+.mediaBox {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+
+}
+.iconFlag {
+	height: 4rem;
+}
+
+audio {
+	width: 360px;
+	/*height: 50px;*/
+/*	margin-top: 2%;*/
+	color: #DCDCDC;
+	margin-bottom: 0.5rem;
+	box-shadow: 15px 5px 20px;
+	border-radius: 30px;
+
+}
+
+.mediaBox h5 {
+	padding-top: 2rem;
+}
+
+.card {
+	border: none;
+	-webkit-box-shadow: 11px 13px 29px 0px rgba(158,158,158,1);
+	-moz-box-shadow: 11px 13px 29px 0px rgba(158,158,158,1);
+	box-shadow: 11px 13px 29px 0px rgba(158,158,158,1);
+
+}
