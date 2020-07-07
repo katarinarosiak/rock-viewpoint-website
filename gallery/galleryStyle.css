@@ -1,0 +1,67 @@
+.gallery .Pic {
+	transition: 1s;
+}
+
+.gallery .Pic:hover {
+	filter: brightness(120%);
+	transform: scale(1.03);
+}
+
+.PicMiddle {
+	transition: 1s;
+}
+
+.PicMiddle:hover {
+		filter: brightness(120%);
+		transform: scale(1.03);
+}
+
+
+
+col {
+	margin: 0;
+	padding: 0;
+}
+
+
+.Pic {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 40vh;
+}
+
+.PicMiddle {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 80vh;
+}
+
+.pic1 {
+	background-image: url("gallery1.jpg");
+}
+
+.pic2 {
+	background-image: url("gallery2.jpg");
+}
+
+.pic3 {
+	background-image: url("gallery3.jpg");
+}
+
+.pic4 {
+	background-image: url("gallery4.jpg");
+}
+
+.pic5 {
+	background-image: url("gallery5.jpg");
+}
+
+.pic6 {
+	background-image: url("gallery6.jpg");
+}
+
+.pic7 {
+	background-image: url("gallery7.jpg");
+}
