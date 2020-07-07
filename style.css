@@ -1,7 +1,25 @@
+/*General*/
 html body {
 	font-family: 'Roboto', sans-serif;
+	overflow-x:hidden;
 }
 
+body a {
+	color: #9c9c9c;
+	hover: #d2d2d2;
+}
+
+a:hover {
+	color: #d2d2d2;
+	text-decoration: none;
+}
+
+.secText {
+	font-size: 3rem;
+
+}
+
+		/*Layout */
 /*centering*/
 .center {
 
@@ -15,81 +33,11 @@ html body {
 	align-items:center;
 }
 
-.logo {
-	padding: 0;
-}
-
-/*Bacground for HERO*/
-.background {
-	background-image: url("mainPic.jpg");
-	color: white;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	height: 100vh;
-}
-
-.backgroundContact {
-
-	background-image: url("contactPic.jpg");
-	color: white;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	height: 60vh;
-}
-
-.backgroundExperiences {
-	background-image: url("experiencesMain.jpg");
-	color: white;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	height: 60vh;
-}
-
-.backgroundAbout {
-	background-image: url("about.jpg");
-	color: white;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	height: 60vh;
-}
-
-.backgroundMedia {
-	background-image: url("media.jpg");
-	color: white;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	height: 60vh;
-}
-
-.contact {
-	padding-top: 1em;
-}
-
 .justify {
 	padding-top: 6rem;
 	font-size: 4rem;
 
 }
-
-.secText {
-	font-size: 3rem;
-
-}
-
-
-/*Book button*/
-.bookBnt {
-	font-size: 120%;
-	background-color: #E56A54;
-	border: 0;
-	margin-top: 5%;
-}
-
 
 /*margins*/
 .marginTop {
@@ -114,24 +62,154 @@ html body {
 .noBg {
 	background-color: transparent !important;
 }
+		/*Layout ends here*/
 
-/*small icons from contact page*/
-.iconstyle {
-	width: 7%;
-	margin-bottom: 5%;
-	margin-left: 8px;
-}
-/*list in contact page*/
-ul {
-	list-style: none;
+		/*Elements*/
+/*Navbar*/
+
+.logo {
+	padding: 0;
 }
 
-/*badges with prices experiences page*/
+.navbar-nav{
+	text-align: center;
 
-.badges {
-	width: 3.5rem;
-	height: 2rem;
-	font-size: 115%;
+}
+
+.navbar-toggler{
+	margin-left: auto;
+
+}
+
+/*HERO for all pages*/
+
+/*Background for HERO*/
+/*index*/
+.background {
+	background-image: url("images/mainPic.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+}
+
+.backgroundContact {
+
+	background-image: url("images/contactPic.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.backgroundExperiences {
+	background-image: url("images/experiencesMain.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.backgroundAbout {
+	background-image: url("images/about.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+.backgroundMedia {
+	background-image: url("images/media.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 60vh;
+}
+
+/*background for start page*/
+#start {
+	background-image: url("Gallery/Big/start.jpg");
+	color: white;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+}
+
+/*Social Media buttons*/
+.social {
+	padding:  14px;
+	z-index: 99999;
+	transition: .3s;
+	height: 40px;
+	float:right;
+
+}
+
+.social:hover {
+	padding-top: 10px;
+
+}
+
+.socialCont {
+	
+	top: 11.8%;
+	margin-right: -14px;
+	height: 0;
+	padding-right: 0px;
+	width: 150px;
+	
+	
+}
+
+.socialList {
+	
+}
+
+/*footer*/
+footer p {
+	font-size: 14px;
+}
+
+footer ul {
+	font-size: 13px;
+}
+
+.logoGDL {
+	width: 130px;
+}
+
+/**/
+			/*Home page*/
+/*product cards*/
+.card {
+-webkit-box-shadow: 15px 5px 39px 7px rgba(171,171,171,0.61);
+-moz-box-shadow: 15px 5px 39px 7px rgba(171,171,171,0.61);
+box-shadow: 15px 5px 39px 7px rgba(171,171,171,0.61);
+
+}
+
+/*Book button*/
+.bookBnt {
+	font-size: 120%;
+	background-color: #E56A54;
+	border: 0;
+	margin-top: 5%;
+}
+
+			/*Media Library page*/
+audio {
+	width: 360px;
+	color: #DCDCDC;
+	margin-bottom: 0.5rem;
+	box-shadow: 15px 5px 20px;
+	border-radius: 30px;
+
 }
 
 /*Media Library Media boxes: */
@@ -141,29 +219,74 @@ ul {
 	margin-bottom: 1rem;
 
 }
-.iconFlag {
-	height: 4rem;
-}
-
-audio {
-	width: 360px;
-	/*height: 50px;*/
-/*	margin-top: 2%;*/
-	color: #DCDCDC;
-	margin-bottom: 0.5rem;
-	box-shadow: 15px 5px 20px;
-	border-radius: 30px;
-
-}
 
 .mediaBox h5 {
 	padding-top: 2rem;
 }
 
-.card {
-	border: none;
-	-webkit-box-shadow: 11px 13px 29px 0px rgba(158,158,158,1);
-	-moz-box-shadow: 11px 13px 29px 0px rgba(158,158,158,1);
-	box-shadow: 11px 13px 29px 0px rgba(158,158,158,1);
+.iconFlag {
+	height: 4rem;
+	color: #DCDCDC;
+	margin-bottom: 0.5rem;
+	box-shadow: 15px 5px 20px;
 
 }
+
+
+			/*Contact page*/
+.contact {
+	padding-top: 1em;
+}
+
+/*small transport icons from contact page*/
+.iconstyle {
+	width: 22px;
+	margin-bottom: 2px;
+
+}
+
+/*list in contact page*/
+ul {
+	list-style: none;
+}
+
+/*google map*/
+#map {
+	height: 350px;
+	width: 100%;
+		}
+
+
+			/*Experience page*/
+/*badges with prices experiences page*/
+
+.badges {
+	width: 3.5rem;
+	height: 2rem;
+	font-size: 115%;
+}
+
+			/*start Page with language choice */
+.startMain {
+	padding-top: 10%;
+}
+
+/*flags on a start page with animation*/
+.startFlag {
+	width: 80px;
+/*	margin-bottom: 5%;
+	margin-left: 8px;*/
+	color: #000000;
+	box-shadow: 6px 7px 16px -6px rgba(0,0,0,0.37);
+	transition: 1s;
+}
+
+ .startFlag:hover {
+	filter: brightness(120%);
+	transform: scale(1.1);
+
+}
+
+
+
+

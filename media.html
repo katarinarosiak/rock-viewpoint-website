@@ -26,32 +26,49 @@
     <!-- header -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark darkGrey sticky-top">
-    	<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-    		<span class="navbar-toggler-icon"></span>
-    	</button>
-    	<a class="navbar-brand"><img src="logo.png"></a>
-	    	<span class="navbar-text">The Rock Viepoint</span>
-    	<div class="collapse navbar-collapse" id="collapse_target">
-	    	<ul class="navbar-nav ml-auto">
-	    		<li class="nav-item">
-	    			<a class="nav-link" href="index.html">Home</a>
-	    		</li>
-	    		<li class="nav-item">
-	    			<a class="nav-link" href="about.html">About</a>
-	    		</li>
-	    		<li class="nav-item">
-	    			<a class="nav-link" href="experiences.html">Experiences</a>
-	    		</li>
+      <a class="navbar-brand" href="index.html"><img src="logo.png"  style="height: 2.7rem"></a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experiences.html">Experiences</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="media.html">Media Library</a>
           </li>
-	    		<li class="nav-item">
-	    			<a class="nav-link" href="contact.html">Contact</a>
-	    		</li>
-
-	    	</ul>
-    	</div>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <!-- navbar ends here -->
+
+            <!-- Social Media starts here-->
+
+<div class="container-fluid sticky-top socialCont">
+  <div class="row no-gutters text-center">
+    <div class="col-2">
+      <ul class="justifyThisEl socialList"> 
+        <li><a href="https://www.facebook.com/therockviewpoint" target="_blank"><img class="social bg-dark" src="icons/facebook.png"></a></li>
+        <li><a href="https://www.instagram.com/greendiscovery_laos" target="_blank"><img class="social bg-dark" src="icons/instagram.png"></a></li>
+        <li><a href="https://www.tiktok.com/@greendiscovery" target="_blank"><img class="social bg-dark" src="icons/tiktok.png"></a></li>
+        <li><a href="https://www.youtube.com/user/GreenDiscoveryLaos" target="_blank"><img class="social bg-dark" src="icons/yt.png"></a></li>
+      </ul>
+  </div>
+</div>
+</div> 
+
+<!-- SOcial Media ends here -->
+
 <!-- hero -->
 <div class="jumbatron jumbatron-fluid backgroundMedia">
 	<div class="container center">
@@ -70,7 +87,7 @@
   </div>
 </section>
 <!-- first row of music players starts here  -->
-<section class="mediaBox">
+<section class="mediaBox" id="creationRock">
 <div class="container bg-light">
   <div class="row">
     <!-- first element starts here UK-->
@@ -165,7 +182,7 @@
 </section>
 
 <!-- Second section with music players starts here (Limestone forest) -->
-<section class="mediaBox">
+<section class="mediaBox" id="limestone">
 <div class="container bg-light">
   <div class="row">
     <!-- first element starts here UK-->
@@ -192,7 +209,7 @@
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="row">
         <div class="col text-center">
-          <h5>he formation of Limestone forest(chinese)</h5></div>
+          <h5>The formation of Limestone forest(chinese)</h5></div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-12 col-sm-10 text-center">
@@ -238,7 +255,7 @@
     <div class="col-lg-6 col-md-12 col-sm-12">
       <div class="row">
         <div class="col text-center">
-          <h5>he formation of Limestone forest(thai) </h5></div>
+          <h5>The formation of Limestone forest(thai) </h5></div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-12 col-sm-10 text-center">
@@ -259,7 +276,7 @@
 </section>
 <!-- second section of music players ends here (Limestone)-->
 <!-- third section with players starts here (Lao Langur) -->
-<section class="mediaBox">
+<section class="mediaBox" id="langur">
 <div class="container bg-light">
   <div class="row">
     <!-- first element starts here UK-->
@@ -353,7 +370,7 @@
 </section>
 <!-- Third section with players end here (Lao Langur) -->
 <!-- Fourth section with players starts here (other animals) -->
-<section class="mediaBox">
+<section class="mediaBox" id="animals">
 <div class="container bg-light">
   <div class="row">
     <!-- first element starts here UK-->
@@ -452,12 +469,12 @@
 
 
 
-		<!-- Footer -->
+	   <!-- Footer -->
 <footer class="page-footer font-small text-white pt-4 darkGrey marginTop">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
-         <h6> The Rock Viewpoint is part of Inthira Group and is operated by Green Discovery Laos</h6>
+         <p> The Rock Viewpoint is part of Inthira Group and is operated by <img src="gdlLogo.png" class="logoGDL"></p>
     <!-- Grid row -->
     <div class="row justify-content-around">
 
@@ -474,16 +491,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">About</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="#!">How to get here</a>
+            <a href="contact.html">How to get here</a>
           </li>
           <li>
-            <a href="#!">Contact us</a>
+            <a href="contact.html#contactid">Contact us</a>
           </li>
           <li>
-            <a href="#!">Experiences</a>
+            <a href="experiences.html">Experiences</a>
           </li>
         </ul>
 
@@ -497,16 +514,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Green Discovery Laos</a>
+            <a href="https://www.greendiscoverylaos.com/" target="_blank">Green Discovery Laos</a>
           </li>
           <li>
-            <a href="#!">Green Step</a>
+            <a href="https://www.greensteplaos.com/" target="_blank">Green Step</a>
           </li>
           <li>
-            <a href="#!">Tree Top Explorer</a>
+            <a href="https://www.greendiscoverylaos.com/tours/treetop-explorer-3-days/" target="_blank">Tree Top Explorer</a>
           </li>
           <li>
-            <a href="#!">Fly At Tad Fane</a>
+            <a href="https://www.greendiscoverylaos.com/tours/fly-at-tad-fane/" target="_blank">Fly At Tad Fane</a>
           </li>
         </ul>
 
@@ -520,16 +537,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Elephant Conservation Center</a>
+            <a href="https://www.elephantconservationcenter.com/" target="_blank">Elephant Conservation Center</a>
           </li>
           <li>
-            <a href="#!">Ride Beyond</a>
+            <a href="https://www.ridebeyondlaos.com/" target="_blank">Ride Beyond</a>
           </li>
             <li>
-            <a href="#!">Green Climbers Home</a>
+            <a href="https://www.greenclimbershome.com/" target="_blank">Green Climbers Home</a>
           </li>
           <li>
-            <a href="#!">Inthira Group</a>
+            <a href="https://www.inthira.com/" target="_blank">Inthira Group</a>
           </li>
         </ul>
 
@@ -544,7 +561,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://greendiscoverylaos.com/"> greendiscoverylaos.com</a> All rights reserved
+    <a href="https://greendiscoverylaos.com/" target="_blank"> greendiscoverylaos.com</a> All rights reserved
   </div>
   <!-- Copyright -->
 

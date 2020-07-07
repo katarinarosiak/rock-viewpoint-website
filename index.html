@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <script type="text/javascript" src="gallery/lightbox-plus-jquery.min.js"></script>
 
     <title>The Rock Viewpoint</title>
 
@@ -19,6 +20,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="gallery/galleryStyle.css">
+    <link rel="stylesheet" type="text/css" href="gallery/lightbox.min.css">
 
 </head>
 <body>
@@ -28,13 +31,11 @@
     <!-- header -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark darkGrey sticky-top">
-    	<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-    		<span class="navbar-toggler-icon"></span>
-    	</button>
-    	<a class="navbar-brand"><img src="logo.png" href="index.html" style="width: 12%"></a>
-      <a class="navbar-brand"><img src="logoText.png" href="index.html" style="width: 15%"></a>
-	    	<span class="navbar-text">The Rock Viewpoint</span>
-    	<div class="collapse navbar-collapse" id="collapse_target">
+    	<a class="navbar-brand" href="index.html"><img src="logo.png"  style="height: 2.7rem"></a>
+    	   <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse_target">
 	    	<ul class="navbar-nav ml-auto">
 	    		<li class="nav-item">
 	    			<a class="nav-link" href="index.html">Home</a>
@@ -51,29 +52,46 @@
 	    		<li class="nav-item">
 	    			<a class="nav-link" href="contact.html">Contact</a>
 	    		</li>
-
 	    	</ul>
     	</div>
     </nav>
+
+            <!-- Social Media starts here-->
+
+<div class="container-fluid sticky-top socialCont">
+  <div class="row no-gutters text-center">
+    <div class="col-2">
+      <ul class="justifyThisEl socialList"> 
+        <li><a href="https://www.facebook.com/therockviewpoint" target="_blank"><img class="social bg-dark" src="icons/facebook.png"></a></li>
+        <li><a href="https://www.instagram.com/greendiscovery_laos" target="_blank"><img class="social bg-dark" src="icons/instagram.png"></a></li>
+        <li><a href="https://www.tiktok.com/@greendiscovery" target="_blank"><img class="social bg-dark" src="icons/tiktok.png"></a></li>
+        <li><a href="https://www.youtube.com/user/GreenDiscoveryLaos" target="_blank"><img class="social bg-dark" src="icons/yt.png"></a></li>
+      </ul>
+  </div>
+</div>
+</div> 
+
+<!-- SOcial Media ends here -->
+
 <!-- hero -->
-<div class="jumbatron jumbatron-fluid background">
+<div class="jumbotron jumbotron-fluid background">
 	<div class="container center">
 	<h1 class="justify text-uppercase font-weight-bold">The Rock Viewpoint</h1>
 	<h2 class="secText">The peak of the loop</h2>
-	<button type="button" class="btn btn-secondary bookBnt">Book</button>
+	<a href="experiences.html"><button type="button" class=" ml-4 btn btn-secondary bookBnt">Book</button></a>
 
 	</div>
 </div>
 
 <!-- Main text about jumbatron starts here-->
-<div class="row justify-content-md-center marginTop">
+<div class="row justify-content-md-center marginTop no-gutters">
 	<div class="col-sm-11 col-md-10 col-lg-10">
 		<div class="container">
 			<div class="row justify-content-md-center">
 				<div class="jumbatron bg-light p-3">
 				<h2 class="marginBottom marginTop text-center">The peak of the loop</h2>
-				<p class="text-start">Immerse yourself in the Phou Hin Boun National Protected Area, an uncharted world of ancient karstic forests, breath-taking views, and endemic wildlife in Khammouane, Central Laos. A must stop to take-in the view, or partake in an exceptional adventure. </p>
-				<p class="text-start">This attraction has been developed by Laos’ leading eco-tourism company, Green Discovery Laos, with the sustainable tourism in mind. It is a must stop in the Thakek Loop that also acts as a tourist information center for all visitors in Khammouane Province.</p>
+				<p class="text-start ml-3 m-r-5">Immerse yourself in the Phou Hin Boun National Protected Area, an uncharted world of ancient karstic forests, breath-taking views, and endemic wildlife in Khammouane, Central Laos. A must stop to take-in the view, or partake in an exceptional adventure. </p>
+				<p class="text-start ml-3 m-r-5">This attraction has been developed by Laos’ leading eco-tourism company, Green Discovery Laos, with the sustainable tourism in mind. It is a must stop in the Thakek Loop that also acts as a tourist information center for all visitors in Khammouane Province.</p>
 			</div>
 		</div>
 		</div>
@@ -95,13 +113,13 @@
 	<div class="col-sm-10 col-md-5 col-lg-4">
 		<div class="container">
 		<div class="row justify-content-around marginBottom">
-		<div class="card" style="width: 22rem;">
-			<img src="highlights-of-the-rock-15.jpg" class="card-img-top" alt="...">
+		<div class="card" style="width: 22rem">
+			<img src="images\highlights-of-the-rock-15.jpg" class="card-img-top" alt="...">
     		<div class="card-body">
       		<h5 class="card-title">Highlights Of The Rock</h5>
       		<p class="card-text">Experience the only spider net bridge in Laos and fly above one o the biggest limestone firest of Asia.</p>
-      		<p class="card-text"><small class="text-muted">From 30$</small></p>
-      		<a href="#" class="btn bookBnt text-white">Read more</a>
+      		<p class="card-text"><small class="text-muted">Price: 30$</small></p>
+      		<a href="experiences.html#highlights" ><button type="button" class="btn bookBnt btn-secondary ml-4 text-white">Read more</button></a>
 			</div>
 		</div>
 		</div>
@@ -112,12 +130,13 @@
 		<div class="container">
 		<div class="row justify-content-around marginBottom">
 		<div class="card" style="width: 22rem;">
-			<img src="highlights-of-the-rock11.jpg" class="card-img-top" alt="...">
+			<img src="images/highlights-of-the-rock11.jpg" class="card-img-top" alt="...">
     		<div class="card-body">
       		<h5 class="card-title">The Rock at Sunset</h5>
-      		<p class="card-text">Experience the only spider net bridge in Laos and enjoy stunning sunset view above limestone cast.</p>
-      		<p class="card-text"><small class="text-muted">From 30$</small></p>
-      		 <a href="#" class="btn bookBnt text-white">Read more</a>
+      		<p class="card-text">Experience the only spider net bridge in Laos and enjoy stunning sunset view above limestone cast.
+          </p>
+      		<p class="card-text"><small class="text-muted">Price: 40$</small></p>
+      		 <a href="experiences.html#sunset"> <button type="button" class="btn bookBnt ml-4 btn-secondary text-white">Read more</button></a>
 			</div>
 		</div>
 		</div>
@@ -127,18 +146,71 @@
 </div>
 <!-- cards with experiences ends here -->
 
+<div class="container">
+  <h2 class="text-center marginBottom marginTop">Gallery</h2>
+</div>
 <!-- Gallery starts here -->
 
+  <div class="container-flex">
+
+    <div class="row gallery no-gutters">
+      <!-- first col starts here -->
+
+      <div class="col-lg-4 bg-danger">
+        <div class="row">
+          <div class="col bg-light">
+            <a href="gallery/gallery1.jpg" data-lightbox="mygallery" data-title="The Rock Viewpoint"><div class="jumbatron jumbatron-fluid Pic pic1"></div>
+          </div></a>
+        </div>
+        <div class="row no-gutters">
+          <div class="col bg-warning">
+            <a href="gallery/gallery2.jpg" data-lightbox="mygallery"><div class="jumbatron jumbatron-fluid Pic pic2"></div></a>
+          </div>
+          <div class="col bg-primary">
+            <a href="gallery/gallery3.jpg" data-lightbox="mygallery"><div class="jumbatron jumbatron-fluid Pic pic3"></div></a>
+          </div>
+        </div>
+      </div>
+      <!-- first col ends here -->
+
+      <!-- second col starts here -->
+      <div class="col-lg-4 bg-primary">
+        <div class="row">
+          <div class="col">
+            <a href="gallery/gallery4.jpg" data-lightbox="mygallery"><div class="jumbatron jumbatron-fluid PicMiddle pic4"></div></a>
+          </div>
+        </div>
+      </div>
+      <!-- second col ends here -->
+      <!-- third col starts here -->
+      <div class="col-lg-4 bg-light">
+        <div class="row no-gutters">
+          <div class="col bg-danger">
+            <a href="gallery/gallery5.jpg" data-lightbox="mygallery"><div class="jumbatron jumbatron-fluid Pic pic5"></div></a>
+          </div>
+          <div class="col bg-warning">
+            <a href="gallery/gallery6.jpg" data-lightbox="mygallery"><div class="jumbatron jumbatron-fluid Pic pic6"></div></a>
+          </div>
+        </div>
+          <div class="row no-gutters">
+            <div class="col bg-dark">
+            <a href="gallery/gallery7.jpg" data-lightbox="mygallery"><div class="jumbatron jumbatron-fluid Pic pic7"></div></a>
+            </div>
+          </div>
+      </div>
+      <!-- third col ends here -->
+    </div>
+  </div>
+</div>
 <!-- Gallery ends here -->
 
 
-
-		<!-- Footer -->
+    <!-- Footer -->
 <footer class="page-footer font-small text-white pt-4 darkGrey marginTop">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
-         <h6> The Rock Viewpoint is part of Inthira Group and is operated by Green Discovery Laos</h6>
+         <p> The Rock Viewpoint is part of Inthira Group and is operated by <img src="gdlLogo.png" class="logoGDL"></p>
     <!-- Grid row -->
     <div class="row justify-content-around">
 
@@ -155,16 +227,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">About</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="#!">How to get here</a>
+            <a href="contact.html">How to get here</a>
           </li>
           <li>
             <a href="contact.html#contactid">Contact us</a>
           </li>
           <li>
-            <a href="#!">Experiences</a>
+            <a href="experiences.html">Experiences</a>
           </li>
         </ul>
 
@@ -178,16 +250,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Green Discovery Laos</a>
+            <a href="https://www.greendiscoverylaos.com/" target="_blank">Green Discovery Laos</a>
           </li>
           <li>
-            <a href="#!">Green Step</a>
+            <a href="https://www.greensteplaos.com/" target="_blank">Green Step</a>
           </li>
           <li>
-            <a href="#!">Tree Top Explorer</a>
+            <a href="https://www.greendiscoverylaos.com/tours/treetop-explorer-3-days/" target="_blank">Tree Top Explorer</a>
           </li>
           <li>
-            <a href="#!">Fly At Tad Fane</a>
+            <a href="https://www.greendiscoverylaos.com/tours/fly-at-tad-fane/" target="_blank">Fly At Tad Fane</a>
           </li>
         </ul>
 
@@ -201,16 +273,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Elephant Conservation Center</a>
+            <a href="https://www.elephantconservationcenter.com/" target="_blank">Elephant Conservation Center</a>
           </li>
           <li>
-            <a href="#!">Ride Beyond</a>
+            <a href="https://www.ridebeyondlaos.com/" target="_blank">Ride Beyond</a>
           </li>
             <li>
-            <a href="#!">Green Climbers Home</a>
+            <a href="https://www.greenclimbershome.com/" target="_blank">Green Climbers Home</a>
           </li>
           <li>
-            <a href="#!">Inthira Group</a>
+            <a href="https://www.inthira.com/" target="_blank">Inthira Group</a>
           </li>
         </ul>
 
@@ -231,5 +303,6 @@
 
 </footer>
 <!-- Footer -->
+
 </body>
 </html>
