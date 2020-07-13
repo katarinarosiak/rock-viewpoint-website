@@ -15,8 +15,16 @@ a:hover {
 }
 
 .secText {
-	font-size: 3rem;
+	font-size: 2rem;
+	font-style: italic;
+	margin-top: 10px;
+	font-weight: 200;
 
+}
+
+.tourTitle {
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 		/*Layout */
@@ -52,6 +60,11 @@ a:hover {
 .marginLR {
 	margin-left: 6em;
 	margin-right:6em;
+}
+
+.paddingLR {
+	padding-left: 6em;
+	padding-right: 6em;
 }
 
 /*colors*/
@@ -186,6 +199,9 @@ footer ul {
 
 /**/
 			/*Home page*/
+/* title */
+
+
 /*product cards*/
 .card {
 -webkit-box-shadow: 15px 5px 39px 7px rgba(171,171,171,0.61);
@@ -265,6 +281,11 @@ ul {
 	height: 2rem;
 	font-size: 115%;
 }
+
+.activities {
+	font-weight: bold;
+}
+
 
 			/*start Page with language choice */
 .startMain {
